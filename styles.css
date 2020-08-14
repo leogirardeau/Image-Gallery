@@ -45,6 +45,6 @@ section {
     transition: opacity 0.3s ease;
 }
 
-.img.room-active{
+img .room-active {
     opacity: 1;
 }
