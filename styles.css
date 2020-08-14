@@ -16,6 +16,7 @@ section {
 
 .room-gallery {
     width: 50%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -33,4 +34,17 @@ section {
 .room-preview {
     display: flex;
     width: 80%;
+    border: 2px solid #e2d2c0;
+}
+
+.room-preview img {
+    height: 100px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.img.room-active{
+    opacity: 1;
 }
